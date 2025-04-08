@@ -53,7 +53,7 @@ static class ConsoleHelper
         ResetColor();
     }
 
-    public static void PrintInfo( string message )
+    public static void PrintNotify( string message )
     {
         SetInfoColor();
         Console.WriteLine( message );
